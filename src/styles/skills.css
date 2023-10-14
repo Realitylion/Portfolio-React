@@ -1,0 +1,25 @@
+.skills {
+    width: auto;
+    background-image: linear-gradient(to bottom, #282c34, #2f4b72);
+    color: white;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.skills-font {
+    font-size: 30px;
+}
+
+.skills button {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 0.01px 15px 0 rgba(255, 255, 255, 0.705);  
+}
+
+.skills button:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 0.01px 15px 0 rgba(255, 255, 255, 0.705);  
+    transform: scale(1.1);
+    background-color: #c0c2c7;
+}
